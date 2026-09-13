@@ -2,7 +2,7 @@
 import logo from '../assets/logo-text.png';
 const Navbar = () => { 
     return (
-       <nav className="flex flex-col md:flex-row justify-between">
+       <nav className="sticky top-0 z-50 bg-white flex flex-col md:flex-row justify-between">
         <img src={logo} alt="Hero" />
 
         <ul className="flex gap-4 items-center">
